@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { FiBarChart3, FiUsers, FiCalendar, FiDollarSign, FiTrendingUp, FiCheckCircle } from 'react-icons/fi'
+import { FiBarChart2, FiUsers, FiCalendar, FiDollarSign, FiTrendingUp, FiCheckCircle } from 'react-icons/fi'
 
 const Features = () => {
   const { ref, inView } = useInView({
@@ -26,7 +26,7 @@ const Features = () => {
       description: 'Support for monthly, quarterly, bi-annual, and yearly payment plans',
     },
     {
-      icon: FiBarChart3,
+      icon: FiBarChart2,
       title: 'Advanced Dashboard',
       description: 'Beautiful analytics dashboard with real-time data visualization',
     },
